@@ -14,7 +14,9 @@
   box-sizing: border-box;
 }
 
-.startComponent {
+.StartScreen,
+.WaitScreen,
+.ClickScreen {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,8 +25,16 @@
   cursor: pointer;
 }
 
-.startComponent {
+.StartScreen {
   background-color: var(--primary-color);
+}
+
+.WaitScreen {
+  background-color: var(--red-color);
+}
+
+.ClickScreen {
+  background-color: var(--green-color);
 }
 
 .componentIcon svg {

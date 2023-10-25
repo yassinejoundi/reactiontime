@@ -1,6 +1,6 @@
 import { StartComponent } from '#build/components';
 <template>
-  <div class="startComponent">
+  <div class="StartScreen">
     <div class="conponentContent">
       <div class="componentIcon" v-html="svgContent"></div>
       <div class="componentText">

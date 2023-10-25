@@ -1,5 +1,9 @@
 <template>
   <div>
-    <StartComponent />
+    <!--
+      <StartScreen />
+      <WaitScreen />
+    -->
+    <ClickScreen />
   </div>
 </template>
