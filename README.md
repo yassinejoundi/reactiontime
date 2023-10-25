@@ -1,75 +1,63 @@
-# Nuxt 3 Minimal Starter
+# Reaction Time Test
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Measure and enhance your reaction time with the Reaction Time Test web application.
 
-## Setup
+<!--
+![Website Screenshot](./screenshot.png)
+-->
 
-Make sure to install the dependencies:
+## About
 
-```bash
-# npm
-npm install
+The Reaction Time Test is a web application built using Nuxt.js and Vue.js that allows users to test and improve their reaction time. Challenge yourself, compete with friends, and discover your average reaction time. How fast can you react?
 
-# pnpm
-pnpm install
+Visit the live demo: [Reaction Time Test Demo](https://reactiontimetest.vercel.app)
 
-# yarn
-yarn install
+## Features
 
-# bun
-bun install
-```
+- Test and measure your reaction time.
+- Multiple rounds of testing.
+- Calculate and display your average reaction time.
+- User-friendly and engaging interface.
+- Real-time feedback and results.
 
-## Development Server
+## Technologies
 
-Start the development server on `http://localhost:3000`:
+This project makes use of several open-source technologies:
 
-```bash
-# npm
-npm run dev
+- [Vue.js](https://vuejs.org/) v3 - The Progressive JavaScript Framework.
+- [Nuxt.js](https://nuxt.com/) v3 - The Intuitive Vue Framework.
 
-# pnpm
-pnpm run dev
+## Getting Started
 
-# yarn
-yarn dev
+To run the Reaction Time Test on your local machine, follow these steps:
 
-# bun
-bun run dev
-```
+1. Clone this repository.
+2. Install project dependencies using `npm install`.
+3. Start the development server using `npm run dev`.
+4. Visit `http://localhost:3000` in your web browser to access the application.
 
-## Production
+## Usage
 
-Build the application for production:
+- Click to start the test.
+- React as quickly as possible when the screen changes.
+- Measure your reaction time and compare it with your friends.
+- Have fun and challenge yourself to improve your reaction time.
 
-```bash
-# npm
-npm run build
+## Contributing
 
-# pnpm
-pnpm run build
+We welcome contributions from the open-source community. To contribute to this project, please:
 
-# yarn
-yarn build
+- Open an issue for bug reports or feature requests.
+- Submit a pull request to help us improve the application.
 
-# bun
-bun run build
-```
+## License
 
-Locally preview production build:
+This project is open source and available under the [MIT License](LICENSE).
 
-```bash
-# npm
-npm run preview
+## Contact
 
-# pnpm
-pnpm run preview
+If you have any questions or feedback, feel free to reach out. You can contact the author on their [GitHub profile](https://github.com/yassinejoundi) or [X (Twitter) ](https://www.x.com/mee_yassine) account.
 
-# yarn
-yarn preview
+## Author
 
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is maintained by [Yassine Joundi](https://github.com/yassinejoundi).
