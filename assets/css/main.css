@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #2b87d1;
+  --content-color: #ffffff;
+  --red-color: #ce2636;
+  --green-color: #4bdb6a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  outline: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.startComponent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.startComponent {
+  background-color: var(--primary-color);
+}
+
+.componentIcon svg {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.componentIcon svg path {
+  fill: var(--content-color) !important;
+}
+
+.componentHeadline {
+  font-size: 70px;
+  font-weight: 600;
+  color: var(--content-color);
+  padding: 10px 40px;
+}
+
+.componentSubline {
+  font-size: 24px;
+  color: var(--content-color);
+  padding: 10px 20px;
+}
