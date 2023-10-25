@@ -16,7 +16,8 @@
 
 .StartScreen,
 .WaitScreen,
-.ClickScreen {
+.ClickScreen,
+.ResultScreen {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -25,7 +26,8 @@
   cursor: pointer;
 }
 
-.StartScreen {
+.StartScreen,
+.ResultScreen {
   background-color: var(--primary-color);
 }
 

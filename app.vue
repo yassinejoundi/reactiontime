@@ -3,7 +3,8 @@
     <!--
       <StartScreen />
       <WaitScreen />
+      <ClickScreen />
     -->
-    <ClickScreen />
+    <ResultScreen />
   </div>
 </template>
