@@ -77,7 +77,7 @@ const startNextRound = () => {
 const showFinalScreen = () => {
   averageReactionTime =
     reactionTimes.value.reduce((a, b) => a + b, 0) / reactionTimes.value.length
-  averageReactionTime = averageReactionTime.toFixed(2)
+  averageReactionTime = averageReactionTime.toFixed(0)
   currentScreen.value = "FinalScreen"
 }
 
